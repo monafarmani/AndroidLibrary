@@ -63,6 +63,8 @@ dependencies {
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
+
+    implementation 'com.github.TuleSimon:xMaterialccp:1.13'
 }
 
 afterEvaluate{
@@ -73,7 +75,7 @@ afterEvaluate{
 
                 groupId = 'com.github.monafarmani'
                 artifactId = 'image-preview-compose'
-                version = '1.0.3'
+                version = '1.0.4'
             }
         }
     }

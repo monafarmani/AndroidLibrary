@@ -22,13 +22,14 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//            minifyEnabled false
+            minifyEnabled true
+           // proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),
+                    proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_17
-//        targetCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_17
     }
     kotlinOptions {
@@ -67,4 +68,8 @@ dependencies {
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
 
     implementation project(':image-preview')
+    //implementation 'com.github.monafarmani:AndroidLibrary:1.0.3'
+
 }
+
+
