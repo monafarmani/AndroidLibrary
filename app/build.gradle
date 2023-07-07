@@ -67,8 +67,9 @@ dependencies {
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
 
-    implementation project(':image-preview')
+   implementation project(':image-preview')
     //implementation 'com.github.monafarmani:AndroidLibrary:1.0.3'
+  //  implementation 'com.github.monafarmani:AndroidLibrary:1.0.4'
 
 }
 

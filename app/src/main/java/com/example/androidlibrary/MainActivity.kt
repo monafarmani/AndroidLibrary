@@ -15,6 +15,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.androidlibrary.ui.theme.AndroidLibraryTheme
+import com.example.image_preview.ColorPicker
 import com.example.image_preview.ImagePreview
 import com.example.image_preview.MainComponent
 
@@ -29,10 +30,14 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     //Greeting("Android")
-                    Column() {
+                    Column {
                         ImagePreview(image = painterResource(id = R.drawable.onandoff))
 
                         MainComponent(isLoading = false , onClick = {countryLang, phoneCode, mobileNumber ->  } )
+
+                        ColorPicker(modifier = Modifier)
+
+
                     }
 
 
