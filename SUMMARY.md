@@ -1,5 +1,10 @@
 # Table of contents
 
-* [1.Test Page one](README.md)
-  * [Page 2](1.test-page-one/page-2.md)
-  * [Page 3](1.test-page-one/page-3.md)
+* [My Test App](README.md)
+  * [. Installation](my-test-app/.-installation.md)
+  * [. Usage](my-test-app/.-usage.md)
+  * [. Configuration](my-test-app/.-configuration.md)
+  * [. Troubleshooting](my-test-app/.-troubleshooting.md)
+  * [. Contributing](my-test-app/.-contributing.md)
+  * [. License](my-test-app/.-license.md)
+  * [. Contact](my-test-app/.-contact.md)
